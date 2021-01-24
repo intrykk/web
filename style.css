@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
+  height: 99vh;
+  overflow: hidden;
 }
 
 main {
